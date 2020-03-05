@@ -20,25 +20,25 @@ function App() {
     <div className="App">
       <Router basename={'/gf-ost'}>
         <Nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/gymnaster">Gymnaster</NavLink>
-          <NavLink to="/hallar">Hallar</NavLink>
-          <NavLink to="/hallar-tider">Hallar faktiska tider</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/gymnaster`}>Gymnaster</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/hallar`}>Hallar</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/hallar-tider`}>Hallar faktiska tider</NavLink>
         </Nav>
         <Switch>
-         <Route path="/klubbar">
+         <Route path={`${process.env.PUBLIC_URL}/klubbar`}>
            <Clubs />
          </Route>
-         <Route path="/gymnaster">
+         <Route path={`${process.env.PUBLIC_URL}/gymnaster`}>
            <Discipline />
          </Route>
-         <Route path="/hallar">
+         <Route path={`${process.env.PUBLIC_URL}/hallar`}>
            <Gyms gymHandler={gymHandler}/>
          </Route>
-         <Route path="/hallar-tider">
+         <Route path={`${process.env.PUBLIC_URL}/hallar-tider`}>
            <Gyms gymHandler={gymHandlerUsed}/>
          </Route>
-         <Route path="/">
+         <Route path={`${process.env.PUBLIC_URL}/`}>
            <B component="h1" style={{textAlign: 'center'}}>Välkommen!</B>
          </Route>
        </Switch>
