@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Enskede",
+    "start": 9,
+    "end": 22,
+    "days": [
+      {
+        "label": "Måndag",
+        "slots": [
+          {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Tisdag",
+        "slots": [
+          {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Onsdag",
+        "slots": [
+          {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Torsdag",
+        "slots": [
+          {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Fredag",
+        "slots": [
+          {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Lördag",
+        "slots": [
+          {"type": "TRUPP", "start":9, "end": 11.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":10.5, "end": 13,"gymnasts": 75},
+          {"type": "TRUPP", "start":12, "end": 15,"gymnasts": 75},
+          {"type": "TRUPP", "start":14, "end": 17,"gymnasts": 75},
+          {"type": "TRUPP", "start":16, "end": 18.5,"gymnasts": 75}
+        ]
+      },
+      {
+        "label": "Söndag",
+        "slots": [
+          {"type": "TRUPP", "start":9, "end": 11.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":10.5, "end": 13.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":12.5, "end": 15.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":14.5, "end": 17.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":16.5, "end": 19.5,"gymnasts": 75},
+          {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+        ]
+      }
+    ]
+  },
+  {
+      "name": "Engelbrekt",
+      "start": 8,
+      "end": 21.5,
+      "days": [
+        {
+          "label": "Tisdag",
+          "slots": [
+            {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+            {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Torsdag",
+          "slots": [
+            {"type": "TRUPP", "start":17, "end": 19.5,"gymnasts": 75},
+            {"type": "TRUPP", "start":18.5, "end": 21.5,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Lördag",
+          "slots": [
+            {"type": "TRUPP", "start":8, "end": 11,"gymnasts": 75},
+            {"type": "TRUPP", "start":10, "end": 13,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Söndag",
+          "slots": [
+            {"type": "TRUPP", "start":8, "end": 10.5,"gymnasts": 75},
+            {"type": "TRUPP", "start":9.5, "end": 12,"gymnasts": 75},
+            {"type": "TRUPP", "start":11, "end": 14,"gymnasts": 75},
+            {"type": "TRUPP", "start":13, "end": 16,"gymnasts": 75}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mälarhöjden trupp",
+      "start": 9,
+      "end": 22,
+      "days": [
+        {
+          "label": "Måndag",
+          "slots": [
+            {"type": "TRUPP", "start":16, "end": 22,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Tisdag",
+          "slots": [
+            {"type": "TRUPP", "start":16, "end": 22,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Onsdag",
+          "slots": [
+            {"type": "TRUPP", "start":16, "end": 22,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Torsdag",
+          "slots": [
+            {"type": "TRUPP", "start":16, "end": 22,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Fredag",
+          "slots": [
+            {"type": "TRUPP", "start":16, "end": 22,"gymnasts": 75}
+          ]
+        },
+        {
+          "label": "Lördag",
+          "slots": [
+            {"type": "TRUPP", "start":9, "end": 18,"gymnasts": 75},
+            {"type": "TRUPP", "start":18, "end": 21,"gymnasts": 25},
+            {"type": "TRUPP", "start":18, "end": 21,"gymnasts": 25},
+            {"type": "TOM", "start":18, "end": 21,"gymnasts": 25}
+          ]
+        },
+        {
+          "label": "Söndag",
+          "slots": [
+            {"type": "TRUPP", "start":9.5, "end": 21.5,"gymnasts": 75}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mälarhöjden AG",
+      "start": 8,
+      "end": 22,
+      "days": [
+        {
+          "label": "Måndag",
+          "slots": [
+            {"type": "MAG", "start":16, "end": 17,"gymnasts": 5},
+            {"type": "MAG", "start":17, "end": 19.5,"gymnasts": 22},
+            {"type": "MAG", "start":19.5, "end": 20,"gymnasts": 27},
+            {"type": "MAG", "start":20, "end": 21,"gymnasts": 10},
+            {"type": "KVAG", "start":15, "end": 19,"gymnasts": 6},
+            {"type": "KVAG", "start":15, "end": 19,"gymnasts": 10},
+            {"type": "KVAG", "start":19, "end": 20.5,"gymnasts": 6},
+            {"type": "KVAG", "start":19, "end": 20.5,"gymnasts": 6},
+            {"type": "KVAG", "start":15, "end": 19,"gymnasts": 2},
+            {"type": "KVAG", "start":15, "end": 18,"gymnasts": 5},
+            {"type": "KVAG", "start":15.5, "end": 18.5,"gymnasts": 3}
+          ]
+        },
+        {
+          "label": "Tisdag",
+          "slots": [
+            {"type": "MAG", "start":15, "end": 17.5,"gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 19.5,"gymnasts": 5 },
+            {"type": "MAG", "start":17, "end": 19.5,"gymnasts": 9 },
+            {"type": "MAG", "start":17.5, "end": 20,"gymnasts": 8 },
+            {"type": "MAG", "start":19.5, "end": 21,"gymnasts": 10 },
+            {"type": "KVAG", "start":15, "end": 20.5,"gymnasts": 18}
+
+          ]
+        },
+        {
+          "label": "Onsdag",
+          "slots": [
+            {"type": "MAG", "start":15.5, "end": 18.5,"gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 19.5,"gymnasts": 11},
+            {"type": "MAG", "start":16.5, "end": 19.5,"gymnasts": 4},
+            {"type": "MAG", "start":19.5, "end": 21,"gymnasts": 10},
+            {"type": "KVAG", "start":15, "end": 15.5,"gymnasts": 7},
+            {"type": "KVAG", "start":15.5, "end": 16,"gymnasts": 17},
+            {"type": "KVAG", "start":16, "end": 18.5,"gymnasts": 22},
+            {"type": "KVAG", "start":18.5, "end": 19.5,"gymnasts": 15},
+            {"type": "KVAG", "start":19.5, "end": 20,"gymnasts": 9}
+
+          ]
+        },
+        {
+          "label": "Torsdag",
+          "slots": [
+            {"type": "MAG", "start":15.5, "end": 17.5,"gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 19.5,"gymnasts": 5},
+            {"type": "MAG", "start":17, "end": 20,"gymnasts": 6},
+            {"type": "MAG", "start":17.5, "end": 20,"gymnasts": 10},
+            {"type": "MAG", "start":18, "end": 20,"gymnasts": 4},
+            {"type": "MAG", "start":20, "end": 21,"gymnasts": 10},
+            {"type": "KVAG", "start":15, "end": 16,"gymnasts": 12},
+            {"type": "KVAG", "start":16, "end": 19,"gymnasts": 24},
+            {"type": "KVAG", "start":19, "end": 20,"gymnasts": 12}
+          ]
+        },
+        {
+          "label": "Fredag",
+          "slots": [
+            {"type": "MAG", "start":15, "end": 18,"gymnasts": 5},
+            {"type": "MAG", "start":17, "end": 19,"gymnasts": 9},
+            {"type": "MAG", "start":17, "end": 19.5,"gymnasts": 8},
+            {"type": "KVAG", "start":15, "end": 15.5,"gymnasts": 7},
+            {"type": "KVAG", "start":15.5, "end": 16.5,"gymnasts": 16},
+            {"type": "KVAG", "start":16.5, "end": 18,"gymnasts": 23},
+            {"type": "KVAG", "start":18, "end": 19,"gymnasts": 18},
+            {"type": "KVAG", "start":19, "end": 19.5,"gymnasts": 16},
+            {"type": "KVAG", "start":19.5, "end": 20,"gymnasts": 9}
+
+          ]
+        },
+        {
+          "label": "Lördag",
+          "slots": [
+            {"type": "MAG", "start":8.5, "end": 12.5,"gymnasts": 25},
+            {"type": "MAG", "start":12.5, "end": 15.5,"gymnasts": 8},
+            {"type": "MAG", "start":13, "end": 15,"gymnasts": 12},
+            {"type": "MAG", "start":15.5, "end": 17.5,"gymnasts": 10},
+            {"type": "KVAG", "start":9, "end": 13,"gymnasts": 25},
+            {"type": "KVAG", "start":14.5, "end": 18.5,"gymnasts": 25}
+
+          ]
+        },
+        {
+          "label": "Söndag",
+          "slots": [
+            {"type": "MAG", "start":9, "end": 12.5,"gymnasts": 4},
+            {"type": "MAG", "start":10, "end": 12,"gymnasts": 10},
+            {"type": "MAG", "start":12.5, "end": 14.5,"gymnasts": 10},
+            {"type": "MAG", "start":14.5, "end": 18,"gymnasts": 8},
+            {"type": "KVAG", "start":13, "end": 17,"gymnasts": 25}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Åkeshov",
+      "start": 8,
+      "end": 22,
+      "days": [
+        {
+          "label": "Måndag",
+          "slots": [
+            {"type": "TRUPP", "start":19, "end": 22, "gymnasts": 60},
+            {"type": "MAG", "start":15, "end": 16, "gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 17, "gymnasts": 19},
+            {"type": "MAG", "start":17, "end": 18.5, "gymnasts": 30},
+            {"type": "MAG", "start":18.5, "end": 19, "gymnasts": 20},
+            {"type": "MAG", "start":19, "end": 19.5, "gymnasts": 13},
+            {"type": "MAG", "start":19.5, "end": 20, "gymnasts": 4},
+            {"type": "KVAG", "start":15, "end": 15.5, "gymnasts": 15},
+            {"type": "KVAG", "start":15.5, "end": 16, "gymnasts": 41},
+            {"type": "KVAG", "start":16, "end": 19, "gymnasts": 50},
+            {"type": "KVAG", "start":19, "end": 19.5, "gymnasts": 38},
+            {"type": "KVAG", "start":19.5, "end": 21, "gymnasts": 12}
+          ]
+        },
+        {
+          "label": "Tisdag",
+          "slots": [
+            {"type": "TRUPP", "start":19, "end": 22,"gymnasts": 60},
+            {"type": "MAG", "start":15, "end": 16,"gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 17,"gymnasts": 20},
+            {"type": "MAG", "start":17, "end": 18,"gymnasts": 30},
+            {"type": "MAG", "start":18, "end": 19,"gymnasts": 29},
+            {"type": "MAG", "start":19, "end": 20.5,"gymnasts": 9},
+            {"type": "KVAG", "start":15, "end": 15.5, "gymnasts": 18},
+            {"type": "KVAG", "start":15.5, "end": 16.5, "gymnasts": 43},
+            {"type": "KVAG", "start":16.5, "end": 17, "gymnasts": 45},
+            {"type": "KVAG", "start":17, "end": 19, "gymnasts": 50},
+            {"type": "KVAG", "start":19, "end": 19.5, "gymnasts": 28},
+            {"type": "KVAG", "start":19.5, "end": 20, "gymnasts": 14},
+            {"type": "KVAG", "start":20, "end": 21, "gymnasts": 12}
+          ]
+        },
+        {
+          "label": "Onsdag",
+          "slots": [
+            {"type": "TRUPP", "start":19, "end": 22,"gymnasts": 60},
+            {"type": "MAG", "start":15, "end": 17,"gymnasts": 10},
+            {"type": "MAG", "start":17, "end": 18.5,"gymnasts": 28},
+            {"type": "MAG", "start":18.5, "end": 19,"gymnasts": 26},
+            {"type": "MAG", "start":19, "end": 20.5,"gymnasts": 14},
+            {"type": "MAG", "start":20.5, "end": 21,"gymnasts": 8},
+            {"type": "KVAG", "start":15, "end": 15.5, "gymnasts": 27},
+            {"type": "KVAG", "start":15.5, "end": 16, "gymnasts": 33},
+            {"type": "KVAG", "start":16, "end": 18,"gymnasts": 47},
+            {"type": "KVAG", "start":18, "end": 19,"gymnasts": 50},
+            {"type": "KVAG", "start":19, "end": 22,"gymnasts": 20}
+
+          ]
+        },
+        {
+          "label": "Torsdag",
+          "slots": [
+            {"type": "TRUPP", "start":19, "end": 22,"gymnasts": 60},
+            {"type": "MAG", "start":15, "end": 16,"gymnasts": 10},
+            {"type": "MAG", "start":16, "end": 18,"gymnasts": 20},
+            {"type": "MAG", "start":18, "end": 19.5,"gymnasts": 25},
+            {"type": "MAG", "start":19.5, "end": 20,"gymnasts": 15},
+            {"type": "KVAG", "start":15, "end": 15.5, "gymnasts": 23},
+            {"type": "KVAG", "start":15.5, "end": 16, "gymnasts": 44},
+            {"type": "KVAG", "start":16, "end": 19,"gymnasts": 50},
+            {"type": "KVAG", "start":19, "end": 19.5,"gymnasts": 21},
+            {"type": "KVAG", "start":19.5, "end": 22,"gymnasts": 20}
+
+          ]
+        },
+        {
+          "label": "Fredag",
+          "slots": [
+            {"type": "TRUPP", "start":19, "end": 22,"gymnasts": 60},
+            {"type": "MAG", "start":15, "end": 15.5,"gymnasts": 10},
+            {"type": "MAG", "start":15.5, "end": 17,"gymnasts": 20},
+            {"type": "MAG", "start":17, "end": 18,"gymnasts": 26},
+            {"type": "MAG", "start":18, "end": 19,"gymnasts": 20},
+            {"type": "MAG", "start":19, "end": 20,"gymnasts": 10},
+            {"type": "MAG", "start":20, "end": 21,"gymnasts": 4},
+            {"type": "KVAG", "start":15, "end": 15.5, "gymnasts": 24},
+            {"type": "KVAG", "start":15.5, "end": 19, "gymnasts": 50},
+            {"type": "KVAG", "start":19, "end": 21.5,"gymnasts": 20}
+          ]
+        },
+        {
+          "label": "Lördag",
+          "slots": [
+            {"type": "TRUPP", "start":13, "end": 16,"gymnasts": 60},
+            {"type": "TRUPP", "start":16, "end": 19.5,"gymnasts": 60},
+            {"type": "MAG", "start":8, "end": 9,"gymnasts": 10},
+            {"type": "MAG", "start":9, "end": 10.5,"gymnasts": 27},
+            {"type": "MAG", "start":10.5, "end": 12,"gymnasts": 32},
+            {"type": "MAG", "start":12, "end": 12.5,"gymnasts": 25},
+            {"type": "MAG", "start":12.5, "end": 17,"gymnasts": 10},
+            {"type": "KVAG", "start":9, "end": 12,"gymnasts": 43},
+            {"type": "KVAG", "start":12, "end": 13,"gymnasts": 42},
+            {"type": "KVAG", "start":13, "end": 17,"gymnasts": 20}
+          ]
+        },
+        {
+          "label": "Söndag",
+          "slots": [
+            {"type": "TRUPP", "start":13.5, "end": 16,"gymnasts": 60},
+            {"type": "TRUPP", "start":16, "end": 19,"gymnasts": 60},
+            {"type": "TRUPP", "start":19, "end": 22,"gymnasts": 60},
+            {"type": "MAG", "start":10, "end": 12,"gymnasts": 12},
+            {"type": "MAG", "start":13, "end": 15,"gymnasts": 12},
+            {"type": "MAG", "start":15.5, "end": 17.5,"gymnasts": 10},
+            {"type": "KVAG", "start":9, "end": 10,"gymnasts": 22},
+            {"type": "KVAG", "start":10, "end": 13,"gymnasts": 50},
+            {"type": "KVAG", "start":13, "end": 20,"gymnasts": 20}
+          ]
+        }
+      ]
+    }
+]
