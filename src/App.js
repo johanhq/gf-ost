@@ -18,7 +18,7 @@ function App() {
   const gymHandlerUsed = new GymHandler(usedGyms);
   return (
     <div className="App">
-      <Router>
+      <Router basename={'/gf-ost'}>
         <Nav>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/gymnaster">Gymnaster</NavLink>
