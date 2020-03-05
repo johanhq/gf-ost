@@ -1,2 +1,2 @@
-# gf-ost
-Looking at data for active gymnast in gf-ost
+# GF-Öst
+Looking at data for active gymnasts in GF-öst
