@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gf-ost/static/css/main.13d18976.chunk.css",
-    "main.js": "/gf-ost/static/js/main.e4b94fcd.chunk.js",
-    "main.js.map": "/gf-ost/static/js/main.e4b94fcd.chunk.js.map",
+    "main.js": "/gf-ost/static/js/main.9dd8af05.chunk.js",
+    "main.js.map": "/gf-ost/static/js/main.9dd8af05.chunk.js.map",
     "runtime-main.js": "/gf-ost/static/js/runtime-main.f9e4bbc3.js",
     "runtime-main.js.map": "/gf-ost/static/js/runtime-main.f9e4bbc3.js.map",
     "static/css/2.6d7d54d2.chunk.css": "/gf-ost/static/css/2.6d7d54d2.chunk.css",
     "static/js/2.f4a96a8f.chunk.js": "/gf-ost/static/js/2.f4a96a8f.chunk.js",
     "static/js/2.f4a96a8f.chunk.js.map": "/gf-ost/static/js/2.f4a96a8f.chunk.js.map",
     "index.html": "/gf-ost/index.html",
-    "precache-manifest.41b4962c62092cd743b9a34b4f40b5d4.js": "/gf-ost/precache-manifest.41b4962c62092cd743b9a34b4f40b5d4.js",
+    "precache-manifest.41f073d01ab508d522b7d51f221b9f29.js": "/gf-ost/precache-manifest.41f073d01ab508d522b7d51f221b9f29.js",
     "service-worker.js": "/gf-ost/service-worker.js",
     "static/css/2.6d7d54d2.chunk.css.map": "/gf-ost/static/css/2.6d7d54d2.chunk.css.map",
     "static/css/main.13d18976.chunk.css.map": "/gf-ost/static/css/main.13d18976.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.6d7d54d2.chunk.css",
     "static/js/2.f4a96a8f.chunk.js",
     "static/css/main.13d18976.chunk.css",
-    "static/js/main.e4b94fcd.chunk.js"
+    "static/js/main.9dd8af05.chunk.js"
   ]
 }
