@@ -26,19 +26,19 @@ function App() {
           <NavLink to={`/hallar-tider`}>Hallar faktiska tider</NavLink>
         </Nav>
         <Switch>
-         <Route path={`${process.env.PUBLIC_URL}/klubbar`}>
+         <Route path={`/klubbar`}>
            <Clubs />
          </Route>
-         <Route path={`${process.env.PUBLIC_URL}/gymnaster`}>
+         <Route path={`/gymnaster`}>
            <Discipline />
          </Route>
-         <Route path={`${process.env.PUBLIC_URL}/hallar`}>
+         <Route path={`/hallar`}>
            <Gyms gymHandler={gymHandler}/>
          </Route>
-         <Route path={`${process.env.PUBLIC_URL}/hallar-tider`}>
+         <Route path={`/hallar-tider`}>
            <Gyms gymHandler={gymHandlerUsed}/>
          </Route>
-         <Route path={`${process.env.PUBLIC_URL}/`}>
+         <Route path={`/`}>
            <B component="h1" style={{textAlign: 'center'}}>Välkommen!</B>
          </Route>
        </Switch>
