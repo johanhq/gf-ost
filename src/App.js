@@ -20,10 +20,10 @@ function App() {
     <div className="App">
       <Router basename={'/gf-ost'}>
         <Nav>
-          <NavLink to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
-          <NavLink to={`${process.env.PUBLIC_URL}/gymnaster`}>Gymnaster</NavLink>
-          <NavLink to={`${process.env.PUBLIC_URL}/hallar`}>Hallar</NavLink>
-          <NavLink to={`${process.env.PUBLIC_URL}/hallar-tider`}>Hallar faktiska tider</NavLink>
+          <NavLink to={`/`}>Home</NavLink>
+          <NavLink to={`/gymnaster`}>Gymnaster</NavLink>
+          <NavLink to={`/hallar`}>Hallar</NavLink>
+          <NavLink to={`/hallar-tider`}>Hallar faktiska tider</NavLink>
         </Nav>
         <Switch>
          <Route path={`${process.env.PUBLIC_URL}/klubbar`}>
