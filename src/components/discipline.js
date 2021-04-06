@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import InputRange from 'react-input-range';
-import InputRangeCSS from 'react-input-range/lib/css/index.css';
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
@@ -8,7 +7,7 @@ import {
 import B from './block';
 import pensum from '../data/pensum.json'
 import Gymnasthandler from '../services/GymnastHandler.js';
-import { DISCIPLINE, COLOR } from '../util/constants';
+import { COLOR } from '../util/constants';
 
 const Discipline = () => {
 

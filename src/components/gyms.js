@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import B from './block';
-import { DISCIPLINE, COLOR } from '../util/constants';
+import { COLOR } from '../util/constants';
 
 
 function Gyms({gymHandler}) {
@@ -97,7 +97,8 @@ function GymElement({ small, gym, hours }) {
     };
     let i = start;
     while( i < end ) {
-      let hs = slots.filter( slot => slot.start === i);
+      const index = i;
+      let hs = slots.filter( slot => slot.start === index);
       let hsElements = hs.map((slot, n) => {
         let duration = slot.end - slot.start;
         let hsStyle = {
@@ -119,7 +120,7 @@ function GymElement({ small, gym, hours }) {
           }
         }
         return (
-          <B key={i +'-'+n} style={hsStyle}>
+          <B key={index +'-'+n} style={hsStyle}>
             {!small && <B style={{ writingMode: 'tb-rl'}}>{slot.type}: {slot.gymnasts}st</B>}
           </B>
         );

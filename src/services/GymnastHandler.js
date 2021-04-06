@@ -27,7 +27,7 @@ export default class GymnastHandler {
   }
 
   getGymnastsOfAge(age) {
-      return this.gymnasts.filter(gymnast => age == gymnast.age);
+      return this.gymnasts.filter(gymnast => age === gymnast.age);
   }
 
   getSummeryByDiscipline(filter = g => true, competitionOnly) {

@@ -7,6 +7,7 @@ import {
 import Clubs from './components/clubs';
 import Discipline from './components/discipline';
 import Gyms from './components/gyms';
+import Buckets from './components/bucket';
 import B from './components/block';
 import NavLink from './components/NavLink';
 import GymHandler from './services/GymHandler';
@@ -23,7 +24,9 @@ function App() {
           <NavLink to={`/`}>Home</NavLink>
           <NavLink to={`/gymnaster`}>Gymnaster</NavLink>
           <NavLink to={`/hallar`}>Hallar</NavLink>
+          <NavLink to={`/klubbar`}>klubbar</NavLink>
           <NavLink to={`/hallar-tider`}>Hallar faktiska tider</NavLink>
+          <NavLink to={`/drag`}>Drag</NavLink>
         </Nav>
         <Switch>
          <Route path={`/klubbar`}>
@@ -37,6 +40,9 @@ function App() {
          </Route>
          <Route path={`/hallar-tider`}>
            <Gyms gymHandler={gymHandlerUsed}/>
+         </Route>
+         <Route path={`/drag`}>
+           <Buckets/>
          </Route>
          <Route path={`/`}>
            <B component="h1" style={{textAlign: 'center'}}>Välkommen!</B>
