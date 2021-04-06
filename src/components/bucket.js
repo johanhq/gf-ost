@@ -24,7 +24,6 @@ const Buckets = () => {
       let dataClone = {...data};
       let rounds = [];
       let roundTot = countTot(dataClone);
-      console.log(roundTot);
       while (roundTot > 0 ) {
         let round = [];
         let fairnesBucket = [];
@@ -74,6 +73,12 @@ const Buckets = () => {
     setCount(0)
   }
 
+  const remove = id => {
+    let newData = {...data};
+    delete newData[id];
+    setData(newData);
+  }
+
   return (
     <div>
       <B style={{margin: '1rem', padding: '1rem', backgroundColor: 'white', borderRadius: '4px'}}>
@@ -86,7 +91,7 @@ const Buckets = () => {
           </form>
         </B>
       </B>
-      <Clubs data={data} />
+      <Clubs data={data} remove={remove}/>
       <Results results={result}/>
     </div>
   )
@@ -96,10 +101,10 @@ const Results = ({results}) => {
   return (<div style={{display: 'flex', width: '100%', flexWrap: 'wrap'}}>{results.map( (result, i) => <Result result={result} key={i} round={i+1}/>)}</div>);
 }
 
-const Clubs = ({data}) => {
+const Clubs = ({data, remove}) => {
   return (
     <div style={{display: 'flex', width: '100%', flexWrap: 'wrap'}}>
-      {Object.entries(data).map( ([key, value]) => <B key={key} style={{margin: '1rem', padding: '1rem', backgroundColor: 'white', borderRadius: '4px'}}>{key}:   {value}</B> )}
+      {Object.entries(data).map( ([key, value]) => <B key={key} style={{margin: '1rem', padding: '1rem', backgroundColor: 'white', borderRadius: '4px', position: 'relative'}}>{key}: {value}<B style={{color:'red', position: 'absolute', top: '2px',right: '4px', fontSize: '0.75rem', cursor: 'pointer'}} onClick={e => remove(key)}>X</B></B> )}
     </div>
   );
 }
